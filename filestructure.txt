@@ -1,0 +1,19 @@
+Files
+src/index.js: This is the main file that runs the chatbot.
+src/generate.js: This file contains the generate_thoughts function, which generates new thoughts using a large language model.
+src/evaluate.js: This file contains the evaluate_thoughts function, which evaluates the generated thoughts.
+src/search.js: This file contains the search_best_thoughts function, which selects the best thought from the evaluated ones.
+src/chatbot.js: This file contains the ChatGPT class, which manages interactions with the large language model.
+
+my_tot_chatbot/
+│
+├── src/
+│   ├── index.js        # main file
+│   ├── generate.js     # file for the generate_thoughts function
+│   ├── evaluate.js     # file for the evaluate_thoughts function
+│   ├── search.js       # file for the search_best_thoughts function
+│   └── chatbot.js      # file for the ChatGPT class
+│
+├── .env                 # file for storing your OpenAI API key
+├── README.md            # project readme
+└── package.json         # npm package file
